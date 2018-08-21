@@ -706,7 +706,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   margin: 0em;
   line-height: 100%;
   position: relative;
-  color: #5AAA95;
+  color: #095256;
   transform-style: preserve-3d;
   perspective: 400;
   z-index: 1;
@@ -727,10 +727,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     -1px 0px 1px rgba(255,255,255,.8),
     1px 0px 1px rgba(0,0,0,.8);
   z-index: 3;
-  transform:
-    rotateX(0deg)
-    rotateY(-15deg)
-    rotateZ(0deg);
+
 }
 .letter:after{
   color: rgba(0,0,0,.11);
@@ -769,4 +766,48 @@ hr {
   width: 80%;               
   background-color:#DCDCDC;
   height: 1px;
+}
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Aligner-item {
+  max-width: 70%;
+}
+
+.Aligner-item--top {
+  align-self: flex-start;
+}
+
+.Aligner-item--bottom {
+  align-self: flex-end;
+}
+
+.fas{
+  
 }
