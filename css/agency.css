@@ -34,10 +34,6 @@ h6 {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-section {
-  padding: 100px 0;
-}
-
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
@@ -65,8 +61,8 @@ section h3.section-subheading {
 }
 
 .btn-xl {
-  font-size: 18px;
-  padding: 20px 40px;
+  font-size: 20px;
+  padding: 15px 35px;
 }
 
 .btn-primary {
@@ -189,10 +185,9 @@ header.masthead .intro-text {
 
 header.masthead .intro-text .intro-lead-in {
   font-size: 22px;
-  font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -210,10 +205,8 @@ header.masthead .intro-text .intro-heading {
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 35px;
-    font-style: italic;
     line-height: 40px;
     margin-bottom: 10px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 50px;
@@ -403,7 +396,7 @@ header.masthead .intro-text .intro-heading {
   width: 2px;
   margin-left: -1.5px;
   content: '';
-  background-color: #e9ecef;
+  background-color: #212529;
 }
 
 .timeline > li {
@@ -447,12 +440,12 @@ header.masthead .intro-text .intro-heading {
   position: absolute;
   z-index: 100;
   left: 0;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   margin-left: 20px;
   text-align: center;
   color: white;
-  border: 5px solid #095256;
+  border: 4px solid #095256;
   border-radius: 100%;
   background-color: #fed136;
 }
@@ -769,16 +762,17 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .section{
-  margin:60px 0;
+  margin:50px 0;
 }
 
 hr {
- border: 0;
+  border: 0;
   clear:both;
   display:block;
   width: 80%;               
   background-color:#DCDCDC;
   height: 1px;
+  margin:20px 0;
 }
 
 .arrow {
@@ -828,7 +822,7 @@ hr {
   height:200px;
   text-align:center;
   color:#fff;
-  margin: 150px 0 50px 0;
+  margin: 100px 0 70px 0;
 }
 .wide-header h1{
   font-size: 50px;
