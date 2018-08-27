@@ -50,6 +50,17 @@ gulp.task('vendor', function() {
     ])
     .pipe(gulp.dest('./vendor/jquery-easing'))
 
+  // Simple Line Icons
+  gulp.src([
+      './node_modules/simple-line-icons/fonts/**',
+    ])
+    .pipe(gulp.dest('./vendor/simple-line-icons/fonts'))
+
+  gulp.src([
+      './node_modules/simple-line-icons/css/**',
+    ])
+    .pipe(gulp.dest('./vendor/simple-line-icons/css'))
+
 });
 
 // Compile SCSS
@@ -58,9 +69,6 @@ gulp.task('css:compile', function() {
     .pipe(sass.sync({
       outputStyle: 'expanded'
     }).on('error', sass.logError))
-    .pipe(header(banner, {
-      pkg: pkg
-    }))
     .pipe(gulp.dest('./css'))
 });
 
@@ -90,9 +98,6 @@ gulp.task('js:minify', function() {
     .pipe(uglify())
     .pipe(rename({
       suffix: '.min'
-    }))
-    .pipe(header(banner, {
-      pkg: pkg
     }))
     .pipe(gulp.dest('./js'))
     .pipe(browserSync.stream());
