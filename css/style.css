@@ -1,3 +1,29 @@
+.download{
+  padding:0px 0 !important;
+  display: block;
+}
+
+
+.features{
+  padding:30px 0;
+}
+
+.contact{
+  padding:30px 0;
+}
+.contact h2{
+  margin-bottom:0px !important;
+}
+.cta{
+  text-align: center;
+  color:white;
+}
+.cta{
+padding: 100px 0px !important;
+}
+
+
+
 .letter{
   display: inline-block;
   font-weight: 900;
@@ -14,3 +40,25 @@
 .download{
   padding: 100px 0 !important;
 }
+h2{
+  line-height: 50px;
+}
+
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Aligner-item {
+  max-width: 70%;
+}
+
+.Aligner-item--top {
+  align-self: flex-start;
+}
+
+.Aligner-item--bottom {
+  align-self: flex-end;
+}
+

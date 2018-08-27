@@ -158,7 +158,7 @@ header.masthead {
   background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
   background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);*/
 /*  background: url("../img/cover/cover3.jpg"), #7b4397;*/
-  background: linear-gradient(#020202, transparent), url("../img/cover/cover4.jpg"), #6EA5B5;
+  background: linear-gradient(#020202, transparent), url("../img/cover/cover6.jpg"), #6EA5B5;
   background-size: cover;
 }
 
@@ -287,8 +287,8 @@ section.features .feature-item i {
 
 section.cta {
   position: relative;
-  padding: 250px 0;
-  background-image: url("../img/bg-cta.jpg");
+  padding: 150px 0;
+  background-image: url("../img/cover/cover1.jpg");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
