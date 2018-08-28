@@ -17,21 +17,26 @@ section.download{
 .cta{
   text-align: center;
   color:white;
-}
-.cta{
-padding: 100px 0px !important;
+  padding: 100px 0px !important;
 }
 
+.vision-header{
+  background-image: url("../img/cover/cover1.jpg");
+}
 
+.budget-header{
+  background-image: url("../img/cover/cover7.jpg");
+
+}
 
 .letter{
   display: inline-block;
   font-weight: 900;
-  font-size: 3.5em;
+  font-size: 3.3em;
   margin: 0em;
   line-height: 100%;
   position: relative;
-  color: #05C491;
+  color: #026174;
   transform-style: preserve-3d;
   perspective: 400;
   z-index: 1;
