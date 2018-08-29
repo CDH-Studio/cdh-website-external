@@ -1,7 +1,14 @@
+#features li{
+  list-style-type:circle;
+}
+
+
+
 section.download{
   padding: 60px 0  30px 0 !important;
   display: block;
 }
+
 
 
 .features{
@@ -176,6 +183,10 @@ h2{
 
 .timeline .timeline-heading h4.subheading {
   text-transform: none;
+}
+
+.timeline .timeline-body > p{
+  font-size: 16px;
 }
 
 .timeline .timeline-body > ul,
