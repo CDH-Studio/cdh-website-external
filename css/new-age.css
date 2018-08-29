@@ -80,7 +80,8 @@ section h2 {
 #mainNav .navbar-toggler {
   font-size: 12px;
   padding: 8px 10px;
-  color: #222222;
+  color: #fff;
+  border-color:#fff;
 }
 
 #mainNav .navbar-nav > li > a {
@@ -101,7 +102,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a,
 #mainNav .navbar-nav > li > a:focus {
-  color: #222222;
+  color: #fff;
 }
 
 #mainNav .navbar-nav > li > a:hover,
