@@ -75,9 +75,6 @@ h2{
 }
 
 
-
-
-
 .timeline {
   position: relative;
   padding: 0;
@@ -281,3 +278,6 @@ h2{
   padding-bottom:0px !important;
 }
 
+.navbar{
+  paddding:0px;
+}
