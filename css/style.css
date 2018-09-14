@@ -281,3 +281,23 @@ h2{
 .navbar{
   paddding:0px;
 }
+
+.btn-success{
+  background-color:#05C491;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #05C491;
+  border-color: #05C491;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #05C491;
+  border-color: #05C491;
+}
+
+.btn-success:focus, .btn-success.focus {
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+}
