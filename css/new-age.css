@@ -66,6 +66,19 @@ section h2 {
   letter-spacing: 1px;
 }
 
+#secondNav {
+  border-color: rgba(34, 34, 34, 0.05);
+  background-color: #222222;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+  height:40px;
+}
+
+
 #mainNav .navbar-brand {
   color: #fdcc52;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
@@ -131,7 +144,9 @@ section h2 {
   }
   #mainNav.navbar-shrink {
     border-color: rgba(34, 34, 34, 0.1);
-    background-color: #025F72;
+   /* background-color: #1b2e45;*/
+    background-color: #222;
+
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #222222;
@@ -145,6 +160,43 @@ section h2 {
   }
   #mainNav.navbar-shrink .navbar-nav > li > a:hover,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
+    color: white;
+  }
+
+  #secondNav {
+    border-color: transparent;
+    background-color: #000;
+  }
+  #secondNav .navbar-brand {
+    color: fade(white, 70%);
+  }
+  #secondNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+    color: white;
+  }
+  #secondNav .navbar-nav > li > a,
+  #secondNav .navbar-nav > li > a:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #secondNav .navbar-nav > li > a:hover,
+  #secondNav .navbar-nav > li > a:focus:hover {
+    color: white;
+  }
+  #secondNav.navbar-shrink {
+    bordser-color: rgba(34, 34, 34, 0.1);
+    background-color: #000;
+  }
+  #secondNav.navbar-shrink .navbar-brand {
+    color: #222222;
+  }
+  #secondNav.navbar-shrink .navbar-brand:hover, #secondNav.navbar-shrink .navbar-brand:focus {
+    color: white;
+  }
+  #secondNav.navbar-shrink .navbar-nav > li > a,
+  #secondNav.navbar-shrink .navbar-nav > li > a:focus {
+    color: white;
+  }
+  #secondNav.navbar-shrink .navbar-nav > li > a:hover,
+  #secondNav.navbar-shrink .navbar-nav > li > a:focus:hover {
     color: white;
   }
 }
@@ -378,7 +430,7 @@ section.contact ul.list-social li.social-google-plus a:hover {
 
 footer {
   padding: 25px 0;
-  text-align: center;
+  text-align: left;
   color: rgba(255, 255, 255, 0.3);
   background-color: #222222;
 }

@@ -24,11 +24,11 @@ section.download{
 .cta{
   text-align: center;
   color:white;
-  padding: 100px 0px !important;
+  padding: 80px 0px !important;
 }
 
 .vision-header{
-  background-image: url("../img/cover/cover1.jpg");
+  background-image: url("../img/cover/cover4_full.jpg");
 }
 
 .budget-header{
@@ -52,6 +52,7 @@ section.download{
 .download{
   padding: 100px 0 !important;
 }
+
 h2{
   line-height: 50px;
 }
@@ -73,9 +74,6 @@ h2{
 .Aligner-item--bottom {
   align-self: flex-end;
 }
-
-
-
 
 
 .timeline {
@@ -281,3 +279,34 @@ h2{
   padding-bottom:0px !important;
 }
 
+.navbar{
+  paddding:0px;
+}
+
+.btn-success{
+  background-color:#05C491;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #05C491;
+  border-color: #05C491;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #05C491;
+  border-color: #05C491;
+}
+
+.btn-success:focus, .btn-success.focus {
+
+  b/ox-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+  color:white;
+}
+
+.btn-success.active{
+
+    background-color: #05C491 !important;
+    color:#fff !important;
+}
