@@ -28,7 +28,7 @@ section.download{
 }
 
 .vision-header{
-  background-image: url("../img/cover/cover4_full.jpg");
+  background-image: url("../img/cover/cover4_comp.jpg");
 }
 
 .budget-header{
@@ -279,10 +279,6 @@ h2{
   padding-bottom:0px !important;
 }
 
-.navbar{
-  paddding:0px;
-}
-
 .btn-success{
   background-color:#05C491;
 }
@@ -301,7 +297,6 @@ h2{
 
 .btn-success:focus, .btn-success.focus {
 
-  b/ox-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
   color:white;
 }
 
