@@ -296,12 +296,16 @@ h2{
 }
 
 .btn-success:focus, .btn-success.focus {
-
+  border-color: #05C491;
   color:white;
 }
 
-.btn-success.active{
-
+.btn-success:active{
+    border-color: #05C491;
     background-color: #05C491 !important;
     color:#fff !important;
+}
+
+nav .btn-success{
+   font-size:13px;
 }
