@@ -309,3 +309,10 @@ h2{
 nav .btn-success{
    font-size:13px;
 }
+
+#team img{
+  border-radius: 50%;
+  width:80%;
+  max-width: 200px;
+  margin:20px;
+}
