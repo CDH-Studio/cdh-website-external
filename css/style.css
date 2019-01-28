@@ -310,9 +310,21 @@ nav .btn-success{
    font-size:13px;
 }
 
+.student-team .btn-success{
+  font-size: 12px;
+  color:#F5F5F5 !important;
+}
+
+.student-team{
+  background-color: #F5F5F5;
+  padding:30px 20px;
+}
+
 #team img{
   border-radius: 50%;
   width:80%;
   max-width: 200px;
   margin:20px;
 }
+
+
